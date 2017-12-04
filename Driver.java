@@ -12,6 +12,7 @@ public class Driver{
 
     System.out.println(ArrayUtils.stringifyArray(arr));
 
+    System.out.println(math.factorialrec((int)15.4));
     System.out.println(math.factorial((int)15.4));
   }
 

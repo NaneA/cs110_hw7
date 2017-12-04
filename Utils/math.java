@@ -11,13 +11,16 @@ public static long factorial(int x){
   }
   return z;
   }
-}
 
-  // public static long factorialrec(int t){
-  //   int this=1;
-  //   if(t<=1){
-  //     return 1;
-  //   }
-  //   this=this*factorialrec(t-1);
-  // }
-  // }
+
+  public static long factorialrec(int t){
+  long result=1;
+    if(t<=1){
+      return 1;
+    }
+
+return  t*factorialrec(t-1);
+    }
+    }
+
+  
